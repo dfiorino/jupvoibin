@@ -9,4 +9,8 @@ dependencies:
     - pandas
     - matplotlib
     - folium
+    - bqplot
+    - ipympl
+    - ipyvolume
+    - scipy
     - voila
