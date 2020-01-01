@@ -1,16 +1,15 @@
-name: example-environment
+name: jupvoibin
 channels:
   - conda-forge
 dependencies:
   - python
-  - numpy
-  - pip
-  - pip:
-    - pandas
-    - matplotlib
-    - folium
-    - bqplot
-    - ipympl
-    - ipyvolume
-    - scipy
-    - voila
+  - pandas
+  - folium
+  - ipyvolume
+  - bqplot
+  - scipy
+  - ipympl
+  - voila=0.1.20
+  - ipympl
+  - xleaflet=0.8.0
+  - xeus-cling=0.6.0
